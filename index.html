@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BasketBall Counter</title>
+    <link rel="stylesheet" href="./basketball-counter.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="heading">🏀Basketball Counter🏀</h1>
+    <div class="main">
+      <div class="home">
+        <h1 class="title">HOME</h1>
+        <h1 id="home-score">0</h1>
+        <div class="increment">
+          <h3 onclick="addonehome()">+1</h3>
+          <h3 onclick="addtwohome()">+2</h3>
+          <h3 onclick="addthreehome()">+3</h3>
+        </div>
+      </div>
+      <div class="middle">
+        <button class="newperiod" id="period" onclick="newperiod()">
+          New Period
+        </button>
+        <button class="newgame" id="newgame" onclick="reset()">
+          New Game🏀
+        </button>
+        <p class="period" id="periodDisplay"></p>
+      </div>
+      <div class="guest">
+        <h1 class="title">GUEST</h1>
+        <h1 id="guest-score">0</h1>
+        <div class="increment">
+          <h3 onclick="addoneguest()">+1</h3>
+          <h3 onclick="addtwoguest()">+2</h3>
+          <h3 onclick="addthreeguest()">+3</h3>
+        </div>
+      </div>
+    </div>
+    <script src="./basketball-counter.js"></script>
+  </body>
+</html>
