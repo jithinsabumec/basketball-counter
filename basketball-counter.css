@@ -40,14 +40,6 @@
   border-radius: 5px;
   color: #f94f6d;
   font-size: 90px;
-}
-
-#home-score {
-  text-align: center;
-  background: #080001;
-  border-radius: 5px;
-  color: #f94f6d;
-  font-size: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
