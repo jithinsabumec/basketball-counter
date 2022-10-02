@@ -1,14 +1,28 @@
 @font-face {
-  font-family: Cursed;
-  src: url(CursedTimerUlil-Aznm.ttf);
+  font-family: Airbnb;
+  src: url(AirbnbCereal-Black.ttf);
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: Airbnb;
+  src: url(AirbnbCereal-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: Airbnb;
+  src: url(AirbnbCereal-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Cursed;
-  background-color: #1b244a;
+  font-family: Airbnb;
+  background-color: #1e1e20;
 }
 
 .title {
@@ -23,7 +37,7 @@
 
 .heading {
   color: white;
-  font-family: DM Sans;
+  font-weight: 900;
   font-size: 40px;
   text-align: center;
   padding-top: 24px;
@@ -36,9 +50,9 @@
 
 #home-score {
   text-align: center;
-  background: #080001;
-  border-radius: 5px;
-  color: #f94f6d;
+  background: #ff8a00;
+  border-radius: 5rem;
+  color: white;
   font-size: 90px;
   display: flex;
   align-items: center;
@@ -46,13 +60,14 @@
   margin-top: 24px;
   width: 300px;
   height: 150px;
+  font-weight: 900;
 }
 
 #guest-score {
   text-align: center;
-  background: #080001;
-  border-radius: 5px;
-  color: #f94f6d;
+  background: #ff8a00;
+  border-radius: 5rem;
+  color: white;
   font-size: 90px;
   display: flex;
   align-items: center;
@@ -60,6 +75,7 @@
   margin-top: 24px;
   width: 300px;
   height: 150px;
+  font-weight: 900;
 }
 
 .home {
@@ -78,13 +94,12 @@
 }
 
 .increment > h3 {
-  color: #9aabd8;
-  border: 2px solid #9aabd8;
-  border-radius: 5px;
-  padding: 10px 13px;
+  color: #ff8a00;
+  border: 2px solid #ff8a00;
+  border-radius: 5rem;
+  padding: 10px 30px;
   cursor: pointer;
-  margin: 16px 32px;
-  font-family: DM Sans;
+  margin: 30px 13px;
 }
 
 .title {
@@ -93,37 +108,21 @@
 }
 
 .newgame {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  font-family: DM Sans;
+  color: #1e1e20;
   font-weight: 700;
-  font-size: 18px;
-  padding: 8px 28px;
+  padding: 0.8rem 3rem;
+  margin-top: 35px;
   border-radius: 50px;
-  border: none;
-  background-color: white;
-  height: 6vh;
-  width: 13vw;
-  margin-top: 100px;
   cursor: pointer;
   font-size: 1em;
+  background-color: #d9d9d9;
 }
 .newperiod {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  font-family: DM Sans;
+  color: #ff8a00;
   font-weight: 700;
-  font-size: 18px;
-  padding: 8px 28px;
+  padding: 0.8rem 3rem;
   border-radius: 50px;
-  border: none;
-  background-color: white;
-  height: 6vh;
-  width: 13vw;
+  border: 1px solid #ff8a00;
   margin-top: 108px;
   cursor: pointer;
   font-size: 1em;
@@ -131,7 +130,7 @@
 
 .period {
   color: white;
-  font-family: DM Sans;
+  font-family: Airbnb;
   font-weight: 700;
   margin-top: 48px;
 }
